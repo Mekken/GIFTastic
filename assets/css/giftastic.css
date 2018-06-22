@@ -1,13 +1,37 @@
 .container {
     display: flex;
     flex-flow: wrap;
+    margin: 10px;
 }
 
-#images{
-    flex-flow: row;
+#buttons {
+    flex: 0 0 100%;
+    justify-content: space-evenly;
+}
+
+#buttons > button {
+    margin: 3px;
+}
+
+#images {
+    flex: 2 2 65%;
+}
+
+#add-game {
+    flex: 1 1 35%;
+}
+
+.img-with-txt {
+    margin: 10px;
 }
 
 img {
-    width: 30%;
-    height: 30%;
+    margin-top: 10px;
+    width: 40%;
+}
+
+input {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }

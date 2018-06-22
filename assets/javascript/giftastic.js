@@ -15,7 +15,7 @@ $(document).ready(function() {
     
     function displayImage(query) {
         let api_key = "aEPt7IpsWlRDaQKubl9gd1Wrg8heKalJ",
-            imgLimit = 3,
+            imgLimit = 10,
             rating = 'pg-13';
 
         $.ajax({ 
@@ -43,7 +43,7 @@ $(document).ready(function() {
     }
 
     function addImage(img_name,img_url,rating) {
-         imagesDiv.append(`<div>Rating: ${rating}<br><img name='${img_name}' src='${img_url}'></div>`);
+         imagesDiv.append(`<div class='img-with-txt'>Rating: ${rating}<br><img name='${img_name}' src='${img_url}'></div>`);
     }
 
     function renderButtons() {
