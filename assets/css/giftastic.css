@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    flex-flow: wrap;
+}
+
+#images{
+    flex-flow: row;
+}
+
+img {
+    width: 30%;
+    height: 30%;
+}
