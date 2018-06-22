@@ -1,5 +1,8 @@
 # GIFTastic
 
+## Version 1.02
+    * CSS Cleanup
+
 ## Version 1.0
     * Added Ability to Query Giphy for Images
     * Added an 'Add Video Game' input field

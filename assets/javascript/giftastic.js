@@ -43,7 +43,7 @@ $(document).ready(function() {
     }
 
     function addImage(img_name,img_url,rating) {
-         imagesDiv.append(`<div class='img-with-txt'>Rating: ${rating}<br><img name='${img_name}' src='${img_url}'></div>`);
+         imagesDiv.append(`<div class='img-with-txt'><p>Rating: ${rating}</p><img name='${img_name}' src='${img_url}'></div>`);
     }
 
     function renderButtons() {

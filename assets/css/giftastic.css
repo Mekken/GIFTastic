@@ -1,37 +1,35 @@
-.container {
-    display: flex;
-    flex-flow: wrap;
+#buttons {
     margin: 10px;
 }
 
-#buttons {
-    flex: 0 0 100%;
-    justify-content: space-evenly;
-}
-
-#buttons > button {
-    margin: 3px;
+.container {
+    display: flex;
+    flex-flow: wrap;
 }
 
 #images {
-    flex: 2 2 65%;
+    display: flex;
+    flex-flow: wrap;
+}
+
+#images {
+    flex: 2;
 }
 
 #add-game {
-    flex: 1 1 35%;
+    flex: 1;
+}
+
+img {
+    margin-top: 5px;    
+    max-width: 25vw;
 }
 
 .img-with-txt {
     margin: 10px;
 }
 
-img {
-    margin-top: 10px;
-    width: 40%;
-}
-
-input {
-    width: 100%;
-    margin-top: 5px;
-    margin-bottom: 5px;
+input, form {
+    width: 80%;
+    margin: 5px 0px 5px 0px;
 }
